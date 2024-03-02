@@ -2,8 +2,6 @@ name: Static analysis
 
 on:
   push:
-    branches:
-      - master
   pull_request:
 
 jobs:
