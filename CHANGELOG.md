@@ -6,9 +6,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.1.1] - 2024-xx-xx
+## [3.1.1] - 2024-09-01
 
-- Switched to `httpbin.org` for tests
+- Switched to `httpbin.org` for tests now that its fixed. (Reverts [#56](https://github.com/php-http/client-integration-tests/pull/56))
 
 ## [3.1.0] - 2024-03-05
 
