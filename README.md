@@ -55,3 +55,5 @@ If you discover any security related issues, please contact us at [security@php-
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
+
+TEST
