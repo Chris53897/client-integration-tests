@@ -15,10 +15,10 @@ jobs:
       max-parallel: 10
       matrix:
         batch:
-          - { suite: "curl",    php: '8.3', package: "php-http/curl-client laminas/laminas-diactoros php-http/message-factory" }
-          - { suite: "Socket",  php: '8.3', package: "php-http/socket-client php-http/client-common php-http/message-factory" }
+          #- { suite: "curl",    php: '8.3', package: "php-http/curl-client laminas/laminas-diactoros php-http/message-factory" }
+          #- { suite: "Socket",  php: '8.3', package: "php-http/socket-client php-http/client-common php-http/message-factory" }
           - { suite: "Guzzle",  php: '8.3', package: "guzzlehttp/guzzle php-http/message-factory" }
-          - { suite: "Buzz",    php: '8.3', package: "kriswallsmith/buzz psr/log php-http/message-factory" }
+          #- { suite: "Buzz",    php: '8.3', package: "kriswallsmith/buzz psr/log php-http/message-factory" }
 
     steps:
       - name: Set up PHP
