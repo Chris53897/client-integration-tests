@@ -9,8 +9,6 @@ use PHPUnit\Framework\TestCase;
 
 abstract class HttpFeatureTest extends TestCase
 {
-    use PhpUnitBackwardCompatibleTrait;
-
     /**
      * @var MessageFactory
      */
